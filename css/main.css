@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+html {
+        -webkit-text-size-adjust: 100%;
+    }
+    
+    body {
+        background-color: #F2F2F2;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        font-size: 62.5%;
+        line-height: 1.15;
+    }
+
+/* MOBILE STYLING */
+
+@media only screen and (max-width: 720px){
+    
+    .top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .top > h1 {
+        font-size: 2.5rem;
+        font-weight: normal;
+        text-align: center;
+        margin: 5rem;
+    }
+    
+    .top-content > h2 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 4rem;
+        margin-bottom: 20px;
+    }
+    
+    .top-content > h3 {
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: normal;
+        margin: 0rem 4rem 2rem 4rem;
+    }
+    
+    .top-content > p {
+        text-align: center;
+        font-size: 1rem;
+        margin: 0rem 3rem 2rem 3rem;
+        font-weight: 100;
+    }
+    
+    .top-content > button {
+        /*margin: 10px 250px 90px 250px;*/
+        display: block;
+        padding: 1rem 3rem;
+        margin: auto;
+        font-size: 1rem;
+        border: 0.1rem black solid;
+        background-color: rgba(255,255,255,.0);
+        
+    }
+    
+    .top-image {
+        padding: 3rem 4rem 3rem 4rem
+    }
+
+    .top-image > .cityscape {
+        width: 100%;
+    }
+}
+
+/* TABLET STYLING */
+
+@media only screen and (min-device-width: 720px) {
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .top > h1 {
+        font-size: 3rem;
+        font-weight: normal;
+        text-align: center;
+        margin: 5rem;
+    }
+
+    .top-div {
+        padding-top: 6rem;
+    }
+
+    .top-content {
+    }
+
+    .top-content > h2 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 4rem;
+        margin-bottom: 20px;
+    }
+    
+    .top-content > h3 {
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: normal;
+        margin: 0rem 4rem 2rem 4rem;
+    }
+    
+    .top-content > p {
+        text-align: center;
+        font-size: 1rem;
+        margin: 0rem 3rem 2rem 3rem;
+        font-weight: 100;
+    }
+
+    .top-content > button {
+        /*margin: 10px 250px 90px 250px;*/
+        display: block;
+        padding: 1rem 3rem;
+        margin: auto;
+        font-size: 1rem;
+        border: 0.1rem black solid;
+        background-color: rgba(255,255,255,.0)
+    }
+
+    .top-div {
+        min-height: 30rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .top-image {
+        min-height: 30rem;
+        margin-right: 4rem;
+    }
+
+    .top-image img {
+        height: 38rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    
+
+}
