@@ -68,13 +68,52 @@ html {
     }
     
     .top-image {
-        padding: 3rem 4rem 3rem 4rem
+        padding: 3rem 4rem 1rem 4rem
     }
 
     .top-image > .cityscape {
         width: 100%;
     }
+
+    .second-section {
+        background-color: black;
+        padding: 10rem 4rem 2rem 4rem
+    }
+
+    .what-we-do-section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #fff;
+    }
+
+    .what-we-do-section > h4 {
+        font-size: 1.2rem;
+    }
+
+    .what-we-do-section > h3 {
+        font-size: 2.8rem;
+        margin-top: 2rem;
+    }
+
+    .what-we-do-section > p {
+        font-size: 0.9rem;
+        font-weight: 300;
+        margin-bottom: 2rem;
+    }
+
+    .workers h3 {
+        font-size: 2.2rem;
+    }
+
+    .workers p {
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
 }
+
+
+
 
 /* TABLET STYLING */
 
@@ -150,5 +189,55 @@ html {
     }
 
     
+    /* SECOND SECTION */
+
+    .second-section {
+        background-color: black;
+        padding: 10rem 4rem 2rem 4rem;
+        margin-top: 3rem
+    }
+
+    .what-we-do-section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #fff;
+    }
+
+    .what-we-do-section > h4 {
+        font-size: 1.2rem;
+    }
+
+    .what-we-do-section > h3 {
+        font-size: 2.8rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .what-we-do-section > p {
+        font-size: 0.9rem;
+        font-weight: 300;
+        margin: 0rem 10rem 3rem 10rem
+    }
+
+    .workers {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: 0rem 4rem 0rem 4rem
+    }
+
+    .workers div {
+        margin: 0rem 1rem 0rem 1rem
+    }
+
+    .workers h3 {
+        font-size: 1.6rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .workers p {
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
 
 }
