@@ -22,6 +22,11 @@ html {
     color: white;
 }
 
+.map-section {
+    background-color: white;
+    padding: 3rem;
+}
+
 /* MOBILE STYLING */
 
 @media only screen and (max-width: 720px){
@@ -171,7 +176,6 @@ html {
         text-align: center;
         font-size: 0.9rem;
         padding: 4rem;
-        margin-top: 5rem;
     }
 
     .footer h3 {
@@ -183,12 +187,49 @@ html {
         padding: 0rem 3rem 0rem 3rem;
     }
 
+    .map-div img {
+        width: 100%;
+    }
+
+    .map-section {
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .map-section h3 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .map-section h4 {
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .map-section p {
+        font-size: 0.9rem;
+        font-weight: 300;
+        margin-bottom: 1rem;
+    }
+
+    .map-section button {
+        padding: 1rem 3rem;
+        margin: auto;
+        font-size: 1rem;
+        border: 0.1rem black solid;
+        background-color: rgba(255,255,255,.0);
+        margin-bottom: 2rem;
+    }
+
+
+
 }
 
 
 
 
-/* TABLET STYLING */
+/* DESKTOP STYLING */
 
 @media only screen and (min-device-width: 720px) {
 
@@ -261,7 +302,7 @@ html {
         object-fit: cover;
     }
 
-    
+
     /* SECOND SECTION */
 
     .second-section {
@@ -390,6 +431,48 @@ html {
 
     .footer span {
         font-size: 0.9rem;
+    }
+
+    .map-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .map-div img {
+        width: 100%;
+    }
+
+    .map-section h3 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .map-section h4 {
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .map-section p {
+        font-size: 0.9rem;
+        font-weight: 300;
+        margin-bottom: 1rem;
+        margin: 0rem 2rem 2rem 2rem
+    }
+
+    .map-section button {
+        padding: 1rem 3rem;
+        margin: auto;
+        font-size: 1rem;
+        border: 0.1rem black solid;
+        background-color: rgba(255,255,255,.0);
+        margin-bottom: 2rem;
+    }
+
+    .right-div {
+        padding: 4rem 0rem 4rem 0rem;
     }
 
 }
