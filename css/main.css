@@ -17,6 +17,11 @@ html {
         line-height: 1.15;
     }
 
+.footer {
+    background-color: black;
+    color: white;
+}
+
 /* MOBILE STYLING */
 
 @media only screen and (max-width: 720px){
@@ -110,6 +115,74 @@ html {
         font-size: 0.9rem;
         font-weight: 300;
     }
+
+    .third-section {
+        text-align: center
+    }
+
+    .third-section h3 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .third-section p {
+        font-size: 0.9rem;
+        font-weight: 300;
+        margin-bottom: 1.5rem;
+    }
+
+
+    .third-section button {
+        padding: 1rem 3rem;
+        margin: auto;
+        font-size: 1rem;
+        border: 0.1rem black solid;
+        background-color: rgba(255,255,255,.0);
+        margin-bottom: 2rem;
+    }
+
+    .third-section span {
+        font-size: 1rem;
+        margin-bottom: 2rem
+    }
+
+    .worker-div img {
+        display: block;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .machine {
+        padding: 3rem;
+    }
+
+    .machine img {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    .third-section img {
+       display: block;
+        margin: auto;
+    }
+
+    .footer {
+        text-align: center;
+        font-size: 0.9rem;
+        padding: 4rem;
+        margin-top: 5rem;
+    }
+
+    .footer h3 {
+        font-size: 1.5rem;
+        margin: 1.5rem 0rem 1.5rem 0rem;
+    }
+
+    .left-div p {
+        padding: 0rem 3rem 0rem 3rem;
+    }
+
 }
 
 
@@ -194,7 +267,8 @@ html {
     .second-section {
         background-color: black;
         padding: 10rem 4rem 2rem 4rem;
-        margin-top: 3rem
+        margin-top: 3rem;
+        padding-bottom: 8rem;
     }
 
     .what-we-do-section {
@@ -238,6 +312,84 @@ html {
     .workers p {
         font-size: 0.9rem;
         font-weight: 300;
+    }
+
+    
+    .worker-div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .left-div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left-div h3 {
+        font-size: 2rem;
+    }
+
+    .left-div p {
+        font-size: 0.7rem;
+        margin-top: 1rem;
+        padding: 0rem 3rem 2rem 3rem;
+    }
+
+    .left-div button {
+        display: block;
+        padding: 1rem 3rem;
+        font-size: 1rem;
+        border: 0.1rem black solid;
+        background-color: rgba(255,255,255,.0);
+    }
+
+
+    .machine {
+        padding: 3rem 3rem 0rem 0rem;
+    }
+
+    .machine img {
+        max-width: 100%;
+    }
+
+    .factory-div {
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+
+    .factory-div img {
+        display: block;
+        margin: auto;
+    }
+
+    .cog-div {
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .cog-div img {
+        display: block;
+        margin: auto;
+    }
+
+    .footer {
+        padding: 4rem;
+        text-align: center;
+    }
+
+    .footer h3 {
+        font-size: 1.6rem;
+        margin: 1rem 0rem 1rem 0rem;
+    }
+
+    .footer span {
+        font-size: 0.9rem;
     }
 
 }
