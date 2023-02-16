@@ -18,7 +18,7 @@ html {
     }
 
 .footer {
-    background-color: black;
+    background-color: [color];
     color: white;
 }
 
@@ -86,7 +86,7 @@ html {
     }
 
     .second-section {
-        background-color: black;
+        background-color: [color];
         padding: 10rem 4rem 2rem 4rem
     }
 
@@ -306,7 +306,7 @@ html {
     /* SECOND SECTION */
 
     .second-section {
-        background-color: black;
+        background-color: [color];
         padding: 10rem 4rem 2rem 4rem;
         margin-top: 3rem;
         padding-bottom: 8rem;
